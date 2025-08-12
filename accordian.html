@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Accordion</title>
+    <style>
+        body {
+            background-color: beige;
+            padding: 40px;
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+
+        .accordian {
+            padding: 80px 80px;
+            background-color: #ffffff;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .accordian-body {
+            margin-top: 40px;
+        }
+
+        .accordian-heading {
+            font-weight: bold;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 1.5rem;
+            line-height: 1.05;
+            letter-spacing: 0;
+            vertical-align: middle;
+            margin: 0px;
+        }
+
+        .accordian-item {
+            border-top: 0.75px solid #e2dfdc;
+        }
+
+        .accordian-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            cursor: pointer;
+            padding: 24px 0;
+            user-select: none;
+            margin: 0px;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1rem;
+            line-height: 1.2;
+            letter-spacing: 0;
+            vertical-align: middle;
+        }
+
+        .vertical-line {
+            transition: opacity 0.3s ease;
+            transform-origin: center;
+        }
+
+        .accordian-item.active .vertical-line {
+            opacity: 0;
+        }
+
+        .acordian-answer {
+            display: none;
+            padding: 0 0 16px 32px;
+            color: #444;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            letter-spacing: 0;
+        }
+
+        @media (max-width: 768px) {
+            .accordian {
+                padding: 40px 20px;
+                border-radius: 16px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="accordian" aria-label="Frequently Asked Questions">
+        <h2 class="accordian-heading">Heading</h2>
+        <div class="accordian-body">
+            <div class="accordian-item">
+                <h3 class="accordian-header">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="10" cy="10" r="10" fill="#FFCE03" />
+                        <rect class="vertical-line" x="9" y="5" width="2" height="10" fill="#262626" rx="0.5" />
+                        <rect x="5" y="9" width="10" height="2" fill="#262626" rx="0.5" />
+                    </svg>
+                    <span>Question</span>
+                </h3>
+                <div class="acordian-answer">Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue.
+                    Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.
+                </div>
+            </div>
+
+            <div class="accordian-item">
+                <h3 class="accordian-header">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="10" cy="10" r="10" fill="#FFCE03" />
+                        <rect class="vertical-line" x="9" y="5" width="2" height="10" fill="#262626" rx="0.5" />
+                        <rect x="5" y="9" width="10" height="2" fill="#262626" rx="0.5" />
+                    </svg>
+                    <span>Another Question</span>
+                </h3>
+                <div class="acordian-answer">Quisque rutrum. Aenean imperdi. Etiam ultricies nisi vel augue.
+                    Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(".accordian-header").click(function () {
+            let item = $(this).parent();
+
+            // Close others (single-open)
+            $(".accordian-item")
+                .not(item)
+                .removeClass("active")
+                .find(".acordian-answer")
+                .slideUp();
+
+            // Toggle this one
+            item.toggleClass("active").find(".acordian-answer").slideToggle();
+        });
+    </script>
+</body>
+
+</html>
