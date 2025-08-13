@@ -1,0 +1,442 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-ExtraLight.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-Black.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-BlackItalic.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-BoldItalic.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-Bold.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-LightItalic.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-Light.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-Italic.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-MediumItalic.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-Medium.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-SemiBold.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-UltraLight.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofia-pro/SofiaPro-UltraLightItalic.woff2') format('woff2'),
+        url('fonts/sofia-pro/SofiaPro-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Galano Grotesque ExBold';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-BoldItalic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-ExtraBold.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-BlackItalic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-Black.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-Bold.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-Italic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-Light.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-ExtraLight.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-Heavy.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-HeavyItalic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque ExLight';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-Regular.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque SmBold';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-Thin.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-Medium.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-ThinItalic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-MediumItalic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-SemiBold.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesqueAlt-Italic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesqueAlt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesque-LightItalic.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesque-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesqueAlt-Thin.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesqueAlt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('fonts/Galano-Grotesque/GalanoGrotesqueAlt-Regular.woff2') format('woff2'),
+        url('fonts/Galano-Grotesque/GalanoGrotesqueAlt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #CCC;
+    padding: 288px 80px 0px 80px;
+    font-size: 16px;
+}
+
+.accordian {
+    max-width: 1280px;
+    height: auto;
+    padding: 80px 80px;
+    background-color: #ffffff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* .accordian-body {
+    margin-top: 40px;
+} */
+
+.accordian-heading {
+    font-family: 'Galano Grotesque', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.375rem;
+    line-height: 1.05;
+    letter-spacing: 0;
+    margin: 0px;
+}
+
+.accordian-item {
+    font-family: 'Sofia Pro', sans-serif;
+    border-top: 0.75px solid #e2dfdc;
+}
+
+.accordian-header {
+    
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    padding: 24px 0;
+    user-select: none;
+    margin: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.vertical-line {
+    transition: opacity 0.3s ease;
+    transform-origin: center;
+}
+
+.accordian-item.active .vertical-line {
+    opacity: 0;
+}
+
+.acordian-answer {
+    display: none;
+    padding: 0 0 16px 32px;
+    color: #444;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+
+@media (max-width: 768px) {
+    body{
+        padding: 288px 40px 0px 40px;
+    }
+    .accordian {
+        max-width: 480px;
+        padding: 40px 20px;
+        border-radius: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .accordian {
+        max-width: 345px;
+    }
+}
